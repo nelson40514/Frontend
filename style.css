@@ -1,0 +1,9 @@
+#headerlist .headerlink {
+    display: flex;
+    flex-direction: row;
+    align-items: center
+}
+
+#headerlist img {
+    height: 1.5em;
+}
