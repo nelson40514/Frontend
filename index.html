@@ -55,28 +55,69 @@
                         <hr />
                     </div>
                     <div class="col-4">
-                        <div class="panel-heading">
-                            <h3 class="panel-title m-3">Please Sign In</h3>
-                        </div>
-                        <div class="panel-body">
-                            <form role="form">
-                                <fieldset>
-                                    <div class="form-group">
-                                        <input class="form-control" placeholder="E-mail" name="email" type="email" autofocus>
-                                    </div>
-                                    <div class="form-group">
-                                        <input class="form-control" placeholder="Password" name="password" type="password" value="">
-                                    </div>
-                                    <div class="checkbox">
-                                        <label>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="department-tab" data-toggle="tab" href="#department" role="tab" aria-controls="department" aria-selected="true">
+                                    系所秘書
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="accounting-tab" data-toggle="tab" href="#accounting" role="tab" aria-controls="accounting" aria-selected="false">
+                                    會計室
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="department" role="tabpanel" aria-labelledby="department-tab">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title m-3">輸入登入資訊</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <form role="form" action="">
+                                        <fieldset>
+                                            <div class="form-group">
+                                                <input class="form-control" placeholder="一般帳號/LDAP帳號" name="email" type="email" autofocus>
+                                            </div>
+                                            <div class="form-group">
+                                                <input class="form-control" placeholder="密碼" name="password" type="password" value="">
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
                                             <input name="remember" type="checkbox" value="Remember Me">
-                                            <span>Remember Me</span>
+                                            <span>記住我</span>
                                         </label>
-                                    </div>
-                                    <!-- Change this to a button or input when using this as a form -->
-                                    <button class="btn btn-success btn-block">Login</button>
-                                </fieldset>
-                            </form>
+                                            </div>
+                                            <!-- Change this to a button or input when using this as a form -->
+                                            <button class="btn btn-success btn-block">登入</button>
+                                        </fieldset>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="accounting" role="tabpanel" aria-labelledby="accounting-tab">
+                                <div class="panel-heading">
+                                    <h3 class="panel-title m-3">輸入登入資訊</h3>
+                                </div>
+                                <div class="panel-body">
+                                    <form role="form" action="">
+                                        <fieldset>
+                                            <div class="form-group">
+                                                <input class="form-control" placeholder="一般帳號/LDAP帳號" name="email" type="email" autofocus>
+                                            </div>
+                                            <div class="form-group">
+                                                <input class="form-control" placeholder="密碼" name="password" type="password" value="">
+                                            </div>
+                                            <div class="checkbox">
+                                                <label>
+                                            <input name="remember" type="checkbox" value="Remember Me">
+                                            <span>記住我</span>
+                                        </label>
+                                            </div>
+                                            <!-- Change this to a button or input when using this as a form -->
+                                            <button class="btn btn-success btn-block">登入</button>
+                                        </fieldset>
+                                    </form>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
