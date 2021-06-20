@@ -50,6 +50,7 @@ $(document).ready(function() {
 });
 
 //Flot Pie Chart
+/*
 $(function() {
 
     var data = [{
@@ -87,7 +88,7 @@ $(function() {
     });
 
 });
-/*
+*/
 //Flot Multiple Axes Line Chart
 $(function() {
     var oilprices = [
@@ -1100,7 +1101,7 @@ $(function() {
 });
 
 //Flot Moving Line Chart
-
+/*
 $(function() {
 
     var container = $("#flot-line-chart-moving");
@@ -1198,7 +1199,7 @@ $(function() {
     }, 40);
 
 });
-
+*/
 //Flot Bar Chart
 
 $(function() {
@@ -1240,4 +1241,3 @@ $(function() {
     $.plot($("#flot-bar-chart"), [barData], barOptions);
 
 });
-*/
