@@ -629,7 +629,7 @@ hr:after {
 @media screen and (max-width: 1680px) {
     .row {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         box-sizing: border-box;
         align-items: stretch;
     }
@@ -2090,7 +2090,7 @@ body.homepage #header {
 }
 
 body.homepage #header h1 {
-    font-size: 4em;
+    font-size: 3em;
 }
 
 body.homepage #header:after {
