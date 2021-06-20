@@ -210,11 +210,9 @@ h3,
 h4,
 h5,
 h6 {
-    width: 525px;
     font-weight: 400;
     color: #fff;
     line-height: 1.25em;
-    text-align: center;
 }
 
 h1 a,
