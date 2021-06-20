@@ -87,7 +87,7 @@ $(function() {
     });
 
 });
-
+/*
 //Flot Multiple Axes Line Chart
 $(function() {
     var oilprices = [
@@ -1240,3 +1240,4 @@ $(function() {
     $.plot($("#flot-bar-chart"), [barData], barOptions);
 
 });
+*/
