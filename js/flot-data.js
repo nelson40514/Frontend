@@ -40,10 +40,10 @@ $(document).ready(function() {
 
         var plotObj = $.plot($("#flot-line-chart"), [{
                 data: sin,
-                label: "sin(x)"
+                label: "xxx"
             }, {
                 data: cos,
-                label: "cos(x)"
+                label: "ooo"
             }],
             options);
     }
@@ -53,17 +53,11 @@ $(document).ready(function() {
 $(function() {
 
     var data = [{
-        label: "Series 0",
+        label: "xxx",
         data: 1
     }, {
-        label: "Series 1",
+        label: "ooo",
         data: 3
-    }, {
-        label: "Series 2",
-        data: 9
-    }, {
-        label: "Series 3",
-        data: 20
     }];
 
     var plotObj = $.plot($("#flot-pie-chart"), data, {
